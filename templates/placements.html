@@ -4,4 +4,22 @@
 
 {% block content %}
 <h1> Hello </h1>
+<img style ="display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;"src="{{url_for('static',filename='placements.jpeg')}}" alt="Smiley face" width="50%" height="50%" class="center">
+  
+  <h2>Choose the month</h2>
+
+<div class="dropdown" style="float:left;">
+  <button class="dropbtn">Phase</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#sec1">Phase-1</a>
+    <a href="#sec2">Phase-2</a>
+    <a href="#sec3">Phase-3</a>
+    <a href="#sec4">Phase-4</a>
+  </div>
+</div>
+<p id="sec1">This is siddharth</p>
+</div>
 {% endblock %}
