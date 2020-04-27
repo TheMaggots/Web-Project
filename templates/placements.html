@@ -3,6 +3,11 @@
 {% block title %}Profile{% endblock %}
 
 {% block content %}
+<script type="text/javascript">
+	function fun() {
+		getElementById("sec1").innerHTML = "This is phase 1";
+	}
+</script>
 <h1> Hello </h1>
 <img style ="display: block;
   margin-left: auto;
@@ -14,12 +19,54 @@
 <div class="dropdown" style="float:left;">
   <button class="dropbtn">Phase</button>
   <div class="dropdown-content" style="left:0;">
-    <a href="#sec1">Phase-1</a>
+    <a href="#sec1" onclick="fun()">Phase-1</a>
     <a href="#sec2">Phase-2</a>
     <a href="#sec3">Phase-3</a>
     <a href="#sec4">Phase-4</a>
   </div>
 </div>
-<p id="sec1">This is siddharth</p>
+<table>
+	<tr>
+		<th>Student ID</th>
+		<th>Student Name</th>
+		<th>Company</th>
+		<th>Package</th>
+	</tr>
+	<tr>
+		<td>1001</td>
+		<td>Akash</td>
+		<td>Amazon</td>
+		<td>20lpa</td>
+	</tr>
+	<tr>
+		<td>1002</td>
+		<td>Krish</td>
+		<td>TCS</td>
+		<td>12lpa</td>
+	</tr>
+	<tr>
+		<td>1005</td>
+		<td>Ram</td>
+		<td>TCS</td>
+		<td>3.5lpa</td>
+	</tr>
+	<tr>
+		<td>1006</td>
+		<td>Sandhya</td>
+		<td>Nine Leaps</td>
+		<td>5lpa</td>
+	</tr>
+	<tr>
+		<td>1008</td>
+		<td>Anish</td>
+		<td>Microsoft</td>
+		<td>24lpa</td>
+	</tr>
+	<tr>
+		<td>1012</td>
+		<td>Swathi</td>
+		<td>Amazon</td>
+		<td>20lpa</td>
+	</tr>
+</table>
 </div>
-{% endblock %}
