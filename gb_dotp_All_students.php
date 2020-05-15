@@ -31,7 +31,29 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%; /* Specific width is required for Firefox. */
+  background: transparent; /* Otherwise white in Chrome */
+}
 
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+
+  /* Hides the slider so custom styles can be added */
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+}
 
 .collapsible {
   cursor: pointer;
@@ -80,7 +102,7 @@
 </head>
 <body>
 	<div class="container" >
-		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#cc0000; color: white; font-weight: lighter;font-size:20px;">Filter Students</button>
+		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#000080; color: white; font-weight: lighter;font-size:20px;">Filter Students</button>
 		<div class="content">
 		  <form>
 		  	<div class="col-xs-12">&nbsp</div>
@@ -179,7 +201,7 @@
             </td>
           
           
-            <th class="col-xs-6">Jobs In Hand</th>
+            <th class="col-xs-8">Jobs In Hand</th>
             <td class="col-xs-2">
               <select name="Eligible">
                 <option value="no" style="color: black;">No Preference</option>
@@ -241,8 +263,8 @@
         </table>!-->
         <table class="col-xs-8">
         <tr>
-        <th class="col-xs-3"></th>
-        <th class="col-xs-1">No. of Backlog/'s:</th>
+        <th class="col-xs-2"></th>
+        <th class="col-xs-2">No. of Backlog/'s:</th>
          <td class="col-xs-4" align="center">
               upto<input type="range" name="Backlogs" min="0" max="60">
               </td>

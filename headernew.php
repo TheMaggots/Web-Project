@@ -17,18 +17,19 @@
 	  	body {
   			font-family: Arial;
   			margin: 0;
-	   	}
+  			  }
+	   	
     </style>
 </head>
 <body>
 	<div class="header1">
 		<div class="container"  style="padding: 5px">
 			<span class="col-xs-8">
-				<span style="color: #ffffff; background-color: #cc0000; padding:5px; font-weight: lighter;"><big><b>GITAM Bengaluru</b></big></span>
-				<h3 style="color: #cc0000;">PLACEMENTS</h3>
+				<span style="color: #ffffff; background-color: #cc0000; padding:5px; font-weight: lighter;"><big><b>GITAM Career Guidance Cell</b></big></span>
+				<h3 style="color: #cc0000;">Placements & Training Dept.</h3>
 			</span>
 			<span class="col-xs-4">
-				<img src="pages/images/gitam.jpeg" width="200px">
+				<img src="gitam.jpeg" width="100px">
 			</span>	
 		</div>	
         <!--<nav class="navbar" style="background-color: #cc0000;">
@@ -42,7 +43,7 @@
         </nav>-->
         <nav>
 		<div class="container2">
-			<div class="col-xs-12" style="background-color: #cc0000; padding: 20px">
+			<div class="col-xs-12" style="background-color:#000080; padding: 20px">
 				<div class="col-xs-1"></div>
 				<div class="col-xs-2"><a href="gb_dotp_admin.php" class="top" style="color: white; font-weight: lighter;">Home</a></div>
 				<div class="col-xs-2"><a href="pages/index.php" class="top" style="color: white; font-weight: lighter;">Logout</a></div>
