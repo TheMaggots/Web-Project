@@ -25,11 +25,14 @@
                         change.innerHTML = x;
       }
     </script>
+   
 </head>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+
 .collapsible {
   cursor: pointer;
   padding: 18px;
@@ -72,22 +75,24 @@
         display: block;
       }
       .dropdown-content form:hover {background-color:#ddd;}
-      .dropdown:hover .dropdown-content {display: block;}
+      .dropdown:hover .dropdown-content {display: block;}   
 </style>
 </head>
 <body>
-	<div class="container">
-		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#0083ce; color: white; font-weight: lighter;">Filter Students</button>
+	<div class="container" >
+		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#cc0000; color: white; font-weight: lighter;font-size:20px;">Filter Students</button>
 		<div class="content">
 		  <form>
 		  	<div class="col-xs-12">&nbsp</div>
 		  	<h2 class="col-xs-12">Education Filter</h2>
-        <hr>
-        <table class="col-xs-12">
+        <table class="col-xs-12" align="center">
+        <hr class="bg-success text-white" style="    border: 0;
+    border-top: 1px solid #000;
+    margin: 20px 0;visibility:visible;">
           <tr>
-            <th class="col-xs-2">Degree</th>
-            <th class="col-xs-4">Branch</th>
-            <th class="col-xs-5">CGPA</th>
+            <th class="col-md-2">Degree</th>
+            <th class="col-md-4" style="text-align:center">Branch</th>
+            <th class="col-md-5" style="text-align:center">CGPA</th>
           </tr>
           <tr>
             <td>
@@ -99,7 +104,7 @@
                 </select>
             </td>
             <td>
-              <div class="dropdown col-xs-12">
+              <div class="dropdown col-xs-12" align="center">
                 <button class="dropbtn" style="color: black; background: #fff">Select option</button>
                 <div class="dropdown-content">
                   <form>
@@ -118,7 +123,7 @@
               <div>
                   <div data-role="main" class="ui-content">
                     <form method="post" action="/action_page_post.php">
-                        <div data-role="rangeslider">
+                        <div data-role="rangeslider" style="background-color:>
                           <label for="cgpa-min"></label>
                           <input type="range" name="cgpa-min" id="cgpa-min" value="0" min="0" max="10" step="0.01">
                           <label for="cgpa-max"></label>
@@ -130,11 +135,14 @@
               </td>
           </tr>
         </table>
+        <div class="col-xs-12">&nbsp</div>
         <h2 class="col-xs-12">Other Filter</h2>
-        <hr>
+                <hr class="bg-success text-white" style="    border: 0;
+    border-top: 1px solid #000;
+    margin: 20px 0;visibility:visible;">
         <table>
           <tr class="col-xs-12">
-            <th class="col-xs-2">Batch</th>
+            <th class="col-xs-6">Batch</th>
             <td class="col-xs-2">
               <select name="Degree">
                 <option value="2016"  style="color: black;">2016</option>
@@ -145,7 +153,7 @@
                 <option value="2021"  style="color: black;">2021</option>
               </select>
             </td>
-            <th class="col-xs-2">Sort By</th>
+            <th class="col-xs-6">Sort By</th>
             <td class="col-xs-2">
               <select name="Sortby">
                 <option value="select"  style="color: black;">Select Sorting Order...</option>
@@ -159,7 +167,9 @@
                 <option value="Gender"  style="color: black;">Gender</option>
               </select>
             </td>
-            <th class="col-xs-2">Gender</th>
+            </tr>
+            <tr class="col-xs-12">
+            <th class="col-xs-5">Gender</th>
             <td class="col-xs-2">
               <select name="Gender">
                 <option value="no"  style="color: black;">No Preference</option>
@@ -167,24 +177,27 @@
                 <option value="female"  style="color: black;">Female</option>
               </select>
             </td>
-          </tr>
-          <tr class="col-xs-12">
-            <th class="col-xs-2">Jobs In Hand</th>
+          
+          
+            <th class="col-xs-6">Jobs In Hand</th>
             <td class="col-xs-2">
               <select name="Eligible">
-                <option value="no">No Preference</option>
-                <option value="0">0 jobs</option>
-                <option value="1"><=1 jobs</option>
-                <option value="2"><=2 jobs</option>
-                <option value="3"><=3 jobs</option>
-                <option value="4"><=4 jobs</option>
+                <option value="no" style="color: black;">No Preference</option>
+                <option value="0"style="color: black;">0 jobs</option>
+                <option value="1"style="color: black;"><=1 jobs</option>
+                <option value="2"style="color: black;"><=2 jobs</option>
+                <option value="3"style="color: black;"><=3 jobs</option>
+                <option value="4"style="color: black;"><=4 jobs</option>
               </select>
             </td>
             <td class="col-xs-8"></td>
           </tr>
         </table>
+        <div class="col-xs-12">&nbsp</div>
         <h2 class="col-xs-12">Advance Filter</h2>
-        <hr>
+                <hr class="bg-success text-white" style="    border: 0;
+    border-top: 1px solid #000;
+    margin: 20px 0;visibility:visible;">
         <table class="col-xs-12">
           <tr>
             <th class="col-xs-1">10<sup>th</sup> %</th>
@@ -219,21 +232,34 @@
               </td>
           </tr>
           <tr>
-            <th class="col-xs-1">Backlogs</th>
-            <td class="col-xs-5">
+          </table>
+           <!-- <th class="col-xs-1">Backlogs</th>
+            <td class="col-xs-5" align="center">
               upto<input type="range" name="Backlogs" min="0" max="60">
               </td>
           </tr>
-        </table>
+        </table>!-->
+        <table class="col-xs-8">
+        <tr>
+        <th class="col-xs-3"></th>
+        <th class="col-xs-1">No. of Backlog/'s:</th>
+         <td class="col-xs-4" align="center">
+              upto<input type="range" name="Backlogs" min="0" max="60">
+              </td>
+          </tr>
+          </table>
+         <div class="col-xs-12">&nbsp</div>
+         <div class="col-xs-12">&nbsp</div>
         </div>
         <div class="col-xs-12">
         	<div class="col-xs-4"></div>
-        	<div class="col-xs-4"><button type="submit">Submit</button></div>
+        	<div class="col-xs-4""><button style="background-color:green;color:white;font-weight: lighter;" type="submit">Submit</button></div>
         	<div class="col-xs-4"></div>
         </div>
       </form>
 		</div>
 	</div>
+	
 	<script>
 		var coll = document.getElementsByClassName("collapsible");
 		var i;
