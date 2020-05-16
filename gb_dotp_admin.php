@@ -14,10 +14,12 @@
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 <?php require('header2.php');?>
+<body style="background-color:#121212;">
 	<div class="col-xs-12">
 		<div class="col-xs-1"></div>
-    <div class="col-xs-10">
-      <h1 class="m-0 text-dark">Placements Dashboard</h1>
+    <div class="col-xs-10" style="background-color:#121212">
+      <h1 class="m-0 text-white">Placements Dashboard</h1>
+              <hr class="bg-success text-white" style="border: 0;border-top: 1px solid blue;margin: 20px 0;visibility:visible;">
       <div class="col-xs-12">&nbsp</div>
       <div class="col-lg-3 col-3">
             <!-- small box -->
@@ -175,3 +177,4 @@
        
 
 </div>
+</body>

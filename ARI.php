@@ -27,28 +27,28 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #000c18;
 }
 </style>
 </head>
-<body>
+<body style="background-color:#121212">
 	<div class="container">
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Set Data Manually</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Set Data Manually</button>
 		<div class="content">
 		  <form>
 
 		  	<div class="col-xs-12">&nbsp</div>
-		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input type="text" name="userid" class="col-xs-9"></label>
-		  	<label class="col-xs-12"><div class="col-xs-3">Name Exam :</div><input type="text" name="name_ARI" class="col-xs-9"></label>
-		    <label class="col-xs-12"><div class="col-xs-3">Exam score :</div><input type="number" name="ARI_score"min="1"max="100" class="col-xs-9"></label>
-        <label class="col-xs-12"><div class="col-xs-3">Exam rank :</div><input type="text" name="ARI_ranks" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input style="color:black;" type="text" name="userid" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">Name Exam :</div><input style="color:black;" type="text" name="name_ARI" class="col-xs-9"></label>
+		    <label class="col-xs-12"><div class="col-xs-3">Exam score :</div><input style="color:black;" type="number" name="ARI_score"min="1"max="100" class="col-xs-9"></label>
+        <label class="col-xs-12"><div class="col-xs-3">Exam rank :</div><input type="text" style="color:black;" name="ARI_ranks" class="col-xs-9"></label>
 
 			<div class="col-xs-12">&nbsp</div>
 			<div class="col-xs-12"><button class="col-xs-2 col-xs-offset-5 btn btn-primary" type="Submit">Submit</button></div>
 			<div class="col-xs-12">&nbsp</div>
 		  </form>
 		</div>
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Upload File</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Upload File</button>
 		<div class="content"><br>
 				<div class="col-xs-12">Upload an excel file<br>To download template click <a href="ARI.xlsx" download>HERE</a></div>
 				<div class="col-xs-12"><input type="file" name="ARI"></div>

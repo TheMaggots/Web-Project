@@ -4,7 +4,7 @@
     <link rel='stylesheet' href='bootstrap1.min.css'>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style type="text/css">
-    	.top{
+    .top{
     		color: #ffffff;
     		text-decoration: none; 
     	}
@@ -17,16 +17,18 @@
 	  	body {
   			font-family: Arial;
   			margin: 0;
+  			  background-color:#121212;
+    color:white;
   			  }
 	   	
     </style>
 </head>
 <body>
-	<div class="header1">
-		<div class="container"  style="padding: 5px">
+	<div class="header1" style="background-color:#121212;">
+		<div class="container"  style="padding: 5px;">
 			<span class="col-xs-8">
 				<span style="color: #ffffff; background-color: #cc0000; padding:5px; font-weight: lighter;"><big><b>GITAM Career Guidance Cell</b></big></span>
-				<h3 style="color: #cc0000;">Placements & Training Dept.</h3>
+				<h3 style="color: #cc0000; text-shadow:none; padding:5px; font-weight: lighter;">Placements & Training Dept.</h3>
 			</span>
 			<span class="col-xs-4">
 				<img src="gitam.jpeg" width="100px">

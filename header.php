@@ -17,11 +17,12 @@
 	  	body {
   			font-family: Arial;
   			margin: 0;
+  			background-color:black;
 	   	}
     </style>
 </head>
 <body>
-	<div class="header1">
+	<div class="header1" style="background-color:black;">
 		<div class="container"  style="padding: 5px">
 			<span class="col-xs-8">
 				<span style="color: #ffffff; background-color: #cc0000; padding:5px;"><big><b>GITAM Bengaluru</b></big></span>

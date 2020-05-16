@@ -1,5 +1,9 @@
 <head>
 	<style type="text/css">
+	body {
+  background-color: black;
+  color: white;
+}
 	.dropbtn {
         font-size: 16px;
       }
@@ -20,10 +24,10 @@
       .dropdown:hover .dropdown-content {display: block;}
 </style>
 </head>
-<body>
- <div class="container2">
-	<div class="col-xs-12">&nbsp;</div>
-	<div class="col-xs-12">
+<body >
+ <div class="container2" style="background-color:#121212;">
+	<div class="col-xs-12"style="background-color:#121212;">&nbsp;</div>
+	<div class="col-xs-12"style="background-color:#121212;">
 		<div class="col-xs-1"></div>
 		<div class="table1" class="col-xs-10">
 			<table class="col-xs-11 col-xs-offset-1 tab1">
@@ -34,8 +38,8 @@
 					<td>&nbsp</td>
 					<td>&nbsp</td>
 				</tr>
-				<tr style="background-color: #999999">
-					<td class="col-xs-6" style="color: white;">Dr.Kishore Buddha</td>
+				<tr style="background-color:#000080">
+					<td class="col-xs-6" style="color: white;font-weight: lighter">Dr.Kishore Buddha</td>
           <nav>
 					<td class="col-xs-1 navtop">
 						<div class="dropdown">
@@ -69,18 +73,18 @@
 				</tr>
 				<tr>
 					<td colspan="4">
-						<div class="col-xs-7">Designation: Placement Director</div>
-						<div>Mobile:+91-9701516999 &nbsp; &nbsp; Email:gitamblr.tpo@gitam.in</div>
+						<div class="col-xs-7" style="font-weight: lighter;color:white;">Designation: Placement Director</div>
+						<div style="font-weight: lighter;color:white;">Mobile:+91-9701516999 &nbsp; &nbsp; Email:gitamblr.tpo@gitam.in</div>
 					</td>
 				</tr>
         		<tr>
         			<td colspan="4">
-            		<div class="col-xs-7">&nbsp</div>
+            		<div class="col-xs-7" style="background-color:#121212;">&nbsp</div>
             		</td>
         		</tr>
 			</table>
 		</div>
-		<div class="col-xs-1"></div>
+		<div class="col-xs-1" style="background-color:#121212;"></div>
 	</div>
 </div>
 <div class="col-xs-12">&nbsp;</div>

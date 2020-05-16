@@ -31,6 +31,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+body{
+background-color:black;
+color:white;
+}
 input[type=range] {
   -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
   width: 100%; /* Specific width is required for Firefox. */
@@ -71,7 +75,9 @@ input[type=range]::-ms-track {
 .content {
   padding: 0 18px;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #000c18;
+  text-shadow:none;
+  color:white;
 }
       .right{
         float: right;
@@ -98,18 +104,20 @@ input[type=range]::-ms-track {
       }
       .dropdown-content form:hover {background-color:#ddd;}
       .dropdown:hover .dropdown-content {display: block;}   
+  
 </style>
 </head>
-<body>
-	<div class="container" >
-		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#000080; color: white; font-weight: lighter;font-size:20px;">Filter Students</button>
+<body style="background-color:#121212;">
+       <div style="background-color:#121212;">
+	<div class="container"style="background-color:#121212;">
+		<button type="button" class="collapsible btn-primary col-xs-9" align="center" style="background-color:#000080; color: white; font-weight: lighter;">Filter Students</button>
 		<div class="content">
 		  <form>
 		  	<div class="col-xs-12">&nbsp</div>
 		  	<h2 class="col-xs-12">Education Filter</h2>
         <table class="col-xs-12" align="center">
         <hr class="bg-success text-white" style="    border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid red;
     margin: 20px 0;visibility:visible;">
           <tr>
             <th class="col-md-2">Degree</th>
@@ -160,7 +168,7 @@ input[type=range]::-ms-track {
         <div class="col-xs-12">&nbsp</div>
         <h2 class="col-xs-12">Other Filter</h2>
                 <hr class="bg-success text-white" style="    border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid red;
     margin: 20px 0;visibility:visible;">
         <table>
           <tr class="col-xs-12">
@@ -218,7 +226,7 @@ input[type=range]::-ms-track {
         <div class="col-xs-12">&nbsp</div>
         <h2 class="col-xs-12">Advance Filter</h2>
                 <hr class="bg-success text-white" style="    border: 0;
-    border-top: 1px solid #000;
+    border-top: 1px solid red;
     margin: 20px 0;visibility:visible;">
         <table class="col-xs-12">
           <tr>
@@ -280,6 +288,7 @@ input[type=range]::-ms-track {
         </div>
       </form>
 		</div>
+	</div>
 	</div>
 	
 	<script>

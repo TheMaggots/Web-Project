@@ -1,4 +1,4 @@
-<?php require ('header.php')?>
+<?php require ('headernew.php')?>
 <?php require('header2.php')?>
 <head>
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -27,29 +27,29 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #000c18;
 }
 </style>
 </head>
-<body>
+<body style="background-color:#121212">
 	<div class="container">
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Set Data Manually</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Set Data Manually</button>
 		<div class="content">
 		  <form>
 
 		  	<div class="col-xs-12">&nbsp</div>
-		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input type="text" name="userid" class="col-xs-9"></label>
-		  	<label class="col-xs-12"><div class="col-xs-3">Name of The Trg  Programme :</div><input type="text" name="name_trg" class="col-xs-9"></label>
-		  	<label class="col-xs-12"><div class="col-xs-3">Date :</div><input type="date" name="date_of_trg"min="2018-01-01"></label>
-        <label class="col-xs-12"><div class="col-xs-3">Session :</div><input type="text" name="Session" class="col-xs-9"></label>
-        <label class="col-xs-12"><div class="col-xs-3">Attendance :</div><input type="text" name="Attendance" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input style="color:black;" type="text" name="userid" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">Name of The Trg  Programme :</div><input style="color:black;" type="text" name="name_trg" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">Date :</div><input style="color:black;" type="date" name="date_of_trg"min="2018-01-01"></label>
+        <label class="col-xs-12"><div class="col-xs-3">Session :</div><input style="color:black;" type="text" name="Session" class="col-xs-9"></label>
+        <label class="col-xs-12"><div class="col-xs-3">Attendance :</div><input style="color:black;" type="text" name="Attendance" class="col-xs-9"></label>
 
 			<div class="col-xs-12">&nbsp</div>
 			<div class="col-xs-12"><button class="col-xs-2 col-xs-offset-5 btn btn-primary" type="Submit">Submit</button></div>
 			<div class="col-xs-12">&nbsp</div>
 		  </form>
 		</div>
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Upload File</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Upload File</button>
 		<div class="content"><br>
 				<div class="col-xs-12">Upload an excel file<br>To download template click <a href="ITA.xlsx" download>HERE</a></div>
 				<div class="col-xs-12"><input type="file" name="ARI"></div>

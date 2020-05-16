@@ -1,4 +1,4 @@
-<?php require ('header.php')?>
+<?php require ('headernew.php')?>
 <?php require('header2.php')?>
 <head>
 	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
@@ -27,25 +27,25 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #000c18;
 }
 </style>
 </head>
-<body>
+<body style="background-color:#121212">
 	<div class="container">
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Set Data Manually</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Set Data Manually</button>
 		<div class="content">
 		  <form>
 
 		  	<div class="col-xs-12">&nbsp</div>
-		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input type="text" name="userid" class="col-xs-9"></label>
-		  	<label class="col-xs-12"><div class="col-xs-3">Assessment patner :</div><input type="text" name="Assessment_patner" value="AMCAT"class="col-xs-9"></label>
-		    <label class="col-xs-12"><div class="col-xs-3">Assessment ID :</div><input type="text" name="Assessment_id" class="col-xs-9"></label>
-				<label class="col-xs-12"><div class="col-xs-3">Quants :</div><input type="number" name="AREAQ"min="1"max="100" class="col-xs-9"></label>
-				<label class="col-xs-12"><div class="col-xs-3">English :</div><input type="number" name="AREAE"min="1"max="100" class="col-xs-9"></label>
-				<label class="col-xs-12"><div class="col-xs-3">Logic :</div><input type="number" name="AREAL"min="1"max="100" class="col-xs-9"></label>
-				<label class="col-xs-12"><div class="col-xs-3">Coding :</div><input type="number" name="AREAC"min="1"max="100" class="col-xs-9"></label>
-				<label class="col-xs-12"><div class="col-xs-3">Domain :</div><input type="number" name="AREAD"min="1"max="100" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">User Id:</div><input style="color:black;" type="text" name="userid" class="col-xs-9"></label>
+		  	<label class="col-xs-12"><div class="col-xs-3">Assessment patner :</div><input style="color:black;" type="text" name="Assessment_patner" value="AMCAT"class="col-xs-9"></label>
+		    <label class="col-xs-12"><div class="col-xs-3">Assessment ID :</div><input style="color:black;" type="text" name="Assessment_id" class="col-xs-9"></label>
+				<label class="col-xs-12"><div class="col-xs-3">Quants :</div><input style="color:black;" type="number" name="AREAQ"min="1"max="100" class="col-xs-9"></label>
+				<label class="col-xs-12"><div class="col-xs-3">English :</div><input style="color:black;" type="number" name="AREAE"min="1"max="100" class="col-xs-9"></label>
+				<label class="col-xs-12"><div class="col-xs-3">Logic :</div><input style="color:black;" type="number" name="AREAL"min="1"max="100" class="col-xs-9"></label>
+				<label class="col-xs-12"><div class="col-xs-3">Coding :</div><input style="color:black;" type="number" name="AREAC"min="1"max="100" class="col-xs-9"></label>
+				<label class="col-xs-12"><div class="col-xs-3">Domain :</div><input style="color:black;" type="number" name="AREAD"min="1"max="100" class="col-xs-9"></label>
 
 
 			<div class="col-xs-12">&nbsp</div>
@@ -53,7 +53,7 @@
 			<div class="col-xs-12">&nbsp</div>
 		  </form>
 		</div>
-		<button type="button" class="collapsible btn btn-primary col-xs-9" align="center">Upload File</button>
+		<button type="button" class="collapsible btn btn-primary col-xs-9" style="background-color:#000080" align="center">Upload File</button>
 		<div class="content"><br>
 				<div class="col-xs-12">Upload an excel file<br>To download template click <a href="ARE_AMCAT.xlsx" download>HERE</a></div>
 				<div class="col-xs-12"><input type="file" name="ARI"></div>
